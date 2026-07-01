@@ -64,7 +64,7 @@ function Jsx() {
             <img src={imgPath} alt={userObj.name} width="200" height="200" />
             <br /> <br />
 
-            <input type="text" value={name} id={name} /> <br /> <br />
+            <input type="text" defaultValue={name} id={name} /> <br /> <br />
             
 			<button onClick={printNumbers}>Print Numbers</button>
 			<br /> <br />
