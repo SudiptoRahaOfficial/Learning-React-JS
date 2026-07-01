@@ -6,6 +6,8 @@ import Jsx from './2. jsx in react/Jsx'
 import State from './3. state in react/State'
 import Toggler from './4. toggle/Toggler'
 import Counter from './5. multiple conditions handling/Counter'
+import Props from './6. props in react/Props'
+import Wrapper from './6. props in react/Wrapper'
 
 function App() {
 
@@ -13,11 +15,12 @@ function App() {
 		<>
 			<h1 style={{ textAlign: 'center', marginBottom: '40px', textDecoration: 'underline' }}>Learning React JS</h1>
 
-			<Hello />
-			<Jsx />
-			<State />
-			<Toggler />
-			<Counter />
+			<Wrapper><Hello /></Wrapper>
+			<Wrapper><Jsx /></Wrapper>
+			<Wrapper><State /></Wrapper>
+			<Wrapper><Toggler /></Wrapper>
+			<Wrapper><Counter /></Wrapper>
+			<Wrapper><Props /></Wrapper>
 		</>
 	)
 }
