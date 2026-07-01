@@ -4,6 +4,7 @@ import React from 'react'
 import Hello from './1. hello react/Hello'
 import Jsx from './2. jsx in react/Jsx'
 import State from './3. state in react/State'
+import Toggler from './4. toggle/Toggler'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
 			<Hello />
 			<Jsx />
 			<State />
+			<Toggler />
 		</>
 	)
 }
