@@ -1,10 +1,11 @@
 import React from 'react'
+import Hello from './1. hello react/Hello'
 
 function App() {
 
 	return (
 		<>
-			
+			<Hello />
 		</>
 	)
 }
