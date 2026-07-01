@@ -9,6 +9,7 @@ import Counter from './5. multiple conditions handling/Counter'
 import Props from './6. props in react/Props'
 import Wrapper from './6. props in react/Wrapper'
 import Input from './7. get input value/Input'
+import InputControlled from './8. controlled component/InputControlled'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
 			<Wrapper><Counter /></Wrapper>
 			<Wrapper><Props /></Wrapper>
 			<Wrapper><Input /></Wrapper>
+			<Wrapper><InputControlled /></Wrapper>
 		</>
 	)
 }
