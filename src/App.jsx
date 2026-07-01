@@ -8,6 +8,7 @@ import Toggler from './4. toggle/Toggler'
 import Counter from './5. multiple conditions handling/Counter'
 import Props from './6. props in react/Props'
 import Wrapper from './6. props in react/Wrapper'
+import Input from './7. get input value/Input'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
 			<Wrapper><Toggler /></Wrapper>
 			<Wrapper><Counter /></Wrapper>
 			<Wrapper><Props /></Wrapper>
+			<Wrapper><Input /></Wrapper>
 		</>
 	)
 }
