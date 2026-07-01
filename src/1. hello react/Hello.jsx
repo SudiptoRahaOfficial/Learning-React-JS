@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Hello = () => {
-  return (
-    <div>
-      <h1>Hello, React!</h1>
-    </div>
-  )
+function Hello() {
+	return (
+		<div>
+			<h2>Part 1: First React Component</h2>
+
+			<p>Hello, React!</p>
+		</div>
+	)
 }
 
 export default Hello
