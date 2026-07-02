@@ -13,6 +13,7 @@ import InputControlled from './08. controlled component/InputControlled'
 import Checkbox from './09. handle checkbox/Checkbox'
 import Radio from './10. radio button & dropdown/radio'
 import Loops from './11. looping & map func/Loops'
+import Useeffect from './12. useEffect hook/Useeffect'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
 			<Wrapper><Checkbox /></Wrapper>
 			<Wrapper><Radio /></Wrapper>
 			<Wrapper><Loops /></Wrapper>
+			<Wrapper><Useeffect /></Wrapper>
 		</>
 	)
 }
