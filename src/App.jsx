@@ -1,17 +1,18 @@
 import React from 'react'
 
 // importing components
-import Hello from './1. hello react/Hello'
-import Jsx from './2. jsx in react/Jsx'
-import State from './3. state in react/State'
-import Toggler from './4. toggle/Toggler'
-import Counter from './5. multiple conditions handling/Counter'
-import Props from './6. props in react/Props'
-import Wrapper from './6. props in react/Wrapper'
-import Input from './7. get input value/Input'
-import InputControlled from './8. controlled component/InputControlled'
-import Checkbox from './9. handle checkbox/Checkbox'
+import Hello from './01. hello react/Hello'
+import Jsx from './02. jsx in react/Jsx'
+import State from './03. state in react/State'
+import Toggler from './04. toggle/Toggler'
+import Counter from './05. multiple conditions handling/Counter'
+import Props from './06. props in react/Props'
+import Wrapper from './06. props in react/Wrapper'
+import Input from './07. get input value/Input'
+import InputControlled from './08. controlled component/InputControlled'
+import Checkbox from './09. handle checkbox/Checkbox'
 import Radio from './10. radio button & dropdown/radio'
+import Loops from './11. looping & map func/Loops'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
 			<Wrapper><InputControlled /></Wrapper>
 			<Wrapper><Checkbox /></Wrapper>
 			<Wrapper><Radio /></Wrapper>
+			<Wrapper><Loops /></Wrapper>
 		</>
 	)
 }

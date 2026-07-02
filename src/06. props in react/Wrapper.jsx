@@ -6,8 +6,10 @@ function Wrapper({ children }) {
 			style={{
 				border: '2px solid black',
 				width: '600px',
-        margin: '10px auto',
-        padding: '10px',
+				margin: '30px auto',
+				padding: '10px',
+				borderRadius: '4px',
+				backgroundColor: '#f6ebff'
 			}}
 		>
 			{children}
