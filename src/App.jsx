@@ -11,6 +11,7 @@ import Wrapper from './6. props in react/Wrapper'
 import Input from './7. get input value/Input'
 import InputControlled from './8. controlled component/InputControlled'
 import Checkbox from './9. handle checkbox/Checkbox'
+import Radio from './10. radio button & dropdown/radio'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
 			<Wrapper><Input /></Wrapper>
 			<Wrapper><InputControlled /></Wrapper>
 			<Wrapper><Checkbox /></Wrapper>
+			<Wrapper><Radio /></Wrapper>
 		</>
 	)
 }
