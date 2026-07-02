@@ -10,6 +10,7 @@ import Props from './6. props in react/Props'
 import Wrapper from './6. props in react/Wrapper'
 import Input from './7. get input value/Input'
 import InputControlled from './8. controlled component/InputControlled'
+import Checkbox from './9. handle checkbox/Checkbox'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
 			<Wrapper><Props /></Wrapper>
 			<Wrapper><Input /></Wrapper>
 			<Wrapper><InputControlled /></Wrapper>
+			<Wrapper><Checkbox /></Wrapper>
 		</>
 	)
 }
