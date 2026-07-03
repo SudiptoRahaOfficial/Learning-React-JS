@@ -19,6 +19,7 @@ import Useref from './14. useRef hook/Useref'
 import Passfunctionasprops from './15. pass function as props/Passfunctionasprops'
 import Forwardref from './16. forwardRef hook/Forwardref'
 import Useformstatus from './17. useFormStatus hook/useFormStatus'
+import Usetransition from './18. useTransition hook/Usetransition'
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
 			<Wrapper><Passfunctionasprops /></Wrapper>
 			<Wrapper><Forwardref /></Wrapper>
 			<Wrapper><Useformstatus /></Wrapper>
+			<Wrapper><Usetransition /></Wrapper>
 		</>
 	)
 }
