@@ -12,7 +12,8 @@ function Passfunctionasprops() {
 
 	return (
 		<div>
-			<h2>Pass Function As Props</h2>
+			<h2>Part 15 : Pass Function As Props</h2>
+
 			<h4>call parent function from child component</h4>
 			<User displayUserName={displayUserName} name='Sudipto' getUser={getUser} /> <br />
 			<br />

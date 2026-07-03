@@ -17,6 +17,7 @@ import Useeffect from './12. useEffect hook/Useeffect'
 import Styling from './13. styling in react/Styling'
 import Useref from './14. useRef hook/Useref'
 import Passfunctionasprops from './15. pass function as props/Passfunctionasprops'
+import Forwardref from './16. forwardRef hook/Forwardref'
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
 			<Wrapper><Styling /></Wrapper>
 			<Wrapper><Useref /></Wrapper>
 			<Wrapper><Passfunctionasprops /></Wrapper>
+			<Wrapper><Forwardref /></Wrapper>
 		</>
 	)
 }
