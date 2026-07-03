@@ -15,7 +15,7 @@ function Usetransition() {
 
 			{pending ? (
 				<img
-					src='/public/loader.gif'
+					src='/loader.gif'
 					alt='loader-image'
 					style={{
 						width: '200px',
