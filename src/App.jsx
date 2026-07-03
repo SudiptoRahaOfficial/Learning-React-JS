@@ -16,6 +16,7 @@ import Loops from './11. looping & map func/Loops'
 import Useeffect from './12. useEffect hook/Useeffect'
 import Styling from './13. styling in react/Styling'
 import Useref from './14. useRef hook/Useref'
+import Passfunctionasprops from './15. pass function as props/Passfunctionasprops'
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
 			<Wrapper><Useeffect /></Wrapper>
 			<Wrapper><Styling /></Wrapper>
 			<Wrapper><Useref /></Wrapper>
+			<Wrapper><Passfunctionasprops /></Wrapper>
 		</>
 	)
 }
