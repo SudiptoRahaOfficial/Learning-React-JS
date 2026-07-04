@@ -25,12 +25,23 @@ import Liftingstateup from './20. lifting state up/Liftingstateup'
 import Updateobjectinstate from './21. updating objects in state/Updateobjectinstate'
 import Updatearrayinstate from './22. updating arrays in state/Updatearrayinstate'
 import Useactionstate from './23. useActionState hook/Useactionstate'
+import Useid from './24. useId hook/Useid'
 
 function App() {
 
 	return (
 		<>
-			<h1 style={{ textAlign: 'center', marginBottom: '40px', textDecoration: 'underline' }}>Learning React JS</h1>
+			<h1 style={{
+				textAlign: 'center',
+				backgroundColor: '#f6ebff',
+				width: '350px',
+				margin: '40px auto',
+				padding: '10px',
+				fontFamily: 'arial',
+				borderRadius: '3px'
+			}}>
+				Learning React JS
+			</h1>
 
 			<Wrapper><Hello /></Wrapper>
 			<Wrapper><Jsx /></Wrapper>
@@ -55,6 +66,7 @@ function App() {
 			<Wrapper><Updateobjectinstate /></Wrapper>
 			<Wrapper><Updatearrayinstate /></Wrapper>
 			<Wrapper><Useactionstate /></Wrapper>
+			<Wrapper><Useid /></Wrapper>
 		</>
 	)
 }

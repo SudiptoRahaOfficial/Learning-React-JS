@@ -45,6 +45,8 @@ This repository serves as my personal learning archive where I continuously impr
 * Part 20 : Lifting State Up in React
 * Part 21 : Updateing Object in State
 * Part 22 : Updating Array In State
+* Part 23 : UseActionState Hook in React
+* Part 24 : UseId Hook in React
 
 ---
 
