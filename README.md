@@ -48,6 +48,7 @@ This repository serves as my personal learning archive where I continuously impr
 * Part 23 : UseActionState Hook in React
 * Part 24 : UseId Hook in React
 * Part 25 : Context API in React
+* Part 26 : Custom Hooks in React
 
 ---
 

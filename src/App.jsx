@@ -27,6 +27,7 @@ import Updatearrayinstate from './22. updating arrays in state/Updatearrayinstat
 import Useactionstate from './23. useActionState hook/Useactionstate'
 import Useid from './24. useId hook/Useid'
 import Contextapi from './25. context api in react/Contextapi'
+import Customhooks from './26. custom hooks in react/Customhooks'
 
 function App() {
 
@@ -69,6 +70,7 @@ function App() {
 			<Wrapper><Useactionstate /></Wrapper>
 			<Wrapper><Useid /></Wrapper>
 			<Wrapper><Contextapi /></Wrapper>
+			<Wrapper><Customhooks /></Wrapper>
 		</>
 	)
 }
