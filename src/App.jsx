@@ -23,6 +23,7 @@ import Usetransition from './18. useTransition hook/Usetransition'
 import Drivedstate from './19. drived state/Drivedstate'
 import Liftingstateup from './20. lifting state up/Liftingstateup'
 import Updateobjectinstate from './21. updating objects in state/Updateobjectinstate'
+import Updatearrayinstate from './22. updating arrays in state/Updatearrayinstate'
 
 function App() {
 
@@ -51,6 +52,7 @@ function App() {
 			<Wrapper><Drivedstate /></Wrapper>
 			<Wrapper><Liftingstateup /></Wrapper>
 			<Wrapper><Updateobjectinstate /></Wrapper>
+			<Wrapper><Updatearrayinstate /></Wrapper>
 		</>
 	)
 }
