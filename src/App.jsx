@@ -21,6 +21,7 @@ import Forwardref from './16. forwardRef hook/Forwardref'
 import Useformstatus from './17. useFormStatus hook/useFormStatus'
 import Usetransition from './18. useTransition hook/Usetransition'
 import Drivedstate from './19. drived state/Drivedstate'
+import Liftingstateup from './20. lifting state up/Liftingstateup'
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
 			<Wrapper><Useformstatus /></Wrapper>
 			<Wrapper><Usetransition /></Wrapper>
 			<Wrapper><Drivedstate /></Wrapper>
+			<Wrapper><Liftingstateup /></Wrapper>
 		</>
 	)
 }
