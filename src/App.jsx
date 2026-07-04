@@ -20,6 +20,7 @@ import Passfunctionasprops from './15. pass function as props/Passfunctionasprop
 import Forwardref from './16. forwardRef hook/Forwardref'
 import Useformstatus from './17. useFormStatus hook/useFormStatus'
 import Usetransition from './18. useTransition hook/Usetransition'
+import Drivedstate from './19. drived state/Drivedstate'
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
 			<Wrapper><Forwardref /></Wrapper>
 			<Wrapper><Useformstatus /></Wrapper>
 			<Wrapper><Usetransition /></Wrapper>
+			<Wrapper><Drivedstate /></Wrapper>
 		</>
 	)
 }
