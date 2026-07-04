@@ -26,6 +26,7 @@ import Updateobjectinstate from './21. updating objects in state/Updateobjectins
 import Updatearrayinstate from './22. updating arrays in state/Updatearrayinstate'
 import Useactionstate from './23. useActionState hook/Useactionstate'
 import Useid from './24. useId hook/Useid'
+import Contextapi from './25. context api in react/Contextapi'
 
 function App() {
 
@@ -67,6 +68,7 @@ function App() {
 			<Wrapper><Updatearrayinstate /></Wrapper>
 			<Wrapper><Useactionstate /></Wrapper>
 			<Wrapper><Useid /></Wrapper>
+			<Wrapper><Contextapi /></Wrapper>
 		</>
 	)
 }
