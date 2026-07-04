@@ -23,15 +23,15 @@ I believe that strong engineering comes from understanding **why**, not just **h
 This repository serves as my personal learning archive where I continuously improve my React knowledge through hands-on practice and experimentation.
 
 ## Chapters
-* Part 1: First React Component
-* Part 2: JSX in React
-* Part 3: State in React
-* Part 4: Toggler in React
-* Part 5: Multiple Conditions | else if - Handling in React
-* Part 6: Props in React
-* Part 7: Get Input Field Value
-* Part 8: Controlled Component
-* Part 9: Handle Checkbox In React
+* Part 01: First React Component
+* Part 02: JSX in React
+* Part 03: State in React
+* Part 04: Toggler in React
+* Part 05: Multiple Conditions | else if - Handling in React
+* Part 06: Props in React
+* Part 07: Get Input Field Value
+* Part 08: Controlled Component
+* Part 09: Handle Checkbox In React
 * Part 10: Handle Radio Button & Dropdown
 * Part 11: Looping & Map Function
 * Part 12 : UseEffect Hook
