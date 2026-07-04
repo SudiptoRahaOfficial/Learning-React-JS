@@ -62,7 +62,7 @@ function Updatearrayinstate() {
 				<strong>Users Details : </strong>
 			</p>
 			{userDetails.map((userDetail, index) => (
-				<p>
+				<p key={index}>
 					Name: <strong>{userDetail.name}</strong> - Age:{' '}
 					{userDetail.age} | <em>{userDetail.profession}</em>
 				</p>

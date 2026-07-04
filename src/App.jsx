@@ -24,6 +24,7 @@ import Drivedstate from './19. drived state/Drivedstate'
 import Liftingstateup from './20. lifting state up/Liftingstateup'
 import Updateobjectinstate from './21. updating objects in state/Updateobjectinstate'
 import Updatearrayinstate from './22. updating arrays in state/Updatearrayinstate'
+import Useactionstate from './23. useActionState hook/Useactionstate'
 
 function App() {
 
@@ -53,6 +54,7 @@ function App() {
 			<Wrapper><Liftingstateup /></Wrapper>
 			<Wrapper><Updateobjectinstate /></Wrapper>
 			<Wrapper><Updatearrayinstate /></Wrapper>
+			<Wrapper><Useactionstate /></Wrapper>
 		</>
 	)
 }
