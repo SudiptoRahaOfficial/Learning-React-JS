@@ -22,6 +22,7 @@ import Useformstatus from './17. useFormStatus hook/useFormStatus'
 import Usetransition from './18. useTransition hook/Usetransition'
 import Drivedstate from './19. drived state/Drivedstate'
 import Liftingstateup from './20. lifting state up/Liftingstateup'
+import Updateobjectinstate from './21. updating objects in state/Updateobjectinstate'
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
 			<Wrapper><Usetransition /></Wrapper>
 			<Wrapper><Drivedstate /></Wrapper>
 			<Wrapper><Liftingstateup /></Wrapper>
+			<Wrapper><Updateobjectinstate /></Wrapper>
 		</>
 	)
 }
