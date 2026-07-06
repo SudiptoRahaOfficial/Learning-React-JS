@@ -29,6 +29,7 @@ import Useid from './24. useId hook/Useid'
 import Contextapi from './25. context api in react/Contextapi'
 import Customhooks from './26. custom hooks in react/Customhooks'
 import Reactrouter from './27. react router/Reactrouter'
+import Apiroot from './28. api implementation/Apiroot'
 
 function App() {
 
@@ -73,6 +74,7 @@ function App() {
 			<Wrapper><Contextapi /></Wrapper>
 			<Wrapper><Customhooks /></Wrapper>
 			<Wrapper><Reactrouter /></Wrapper>
+			<Wrapper><Apiroot /></Wrapper>
 		</>
 	)
 }
