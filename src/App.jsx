@@ -31,6 +31,7 @@ import Customhooks from './26. custom hooks in react/Customhooks'
 import Reactrouter from './27. react router/Reactrouter'
 import Apiroot from './28. api implementation/Apiroot'
 import Validation from './29. validation/Validation'
+import Validationwithuseactionstate from './30. validation with useActionState/Validationwithuseactionstate'
 
 function App() {
 
@@ -77,6 +78,7 @@ function App() {
 			<Wrapper><Reactrouter /></Wrapper>
 			<Wrapper><Apiroot /></Wrapper>
 			<Wrapper><Validation /></Wrapper>
+			<Wrapper><Validationwithuseactionstate /></Wrapper>
 		</>
 	)
 }
