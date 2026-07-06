@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Postapi from './Postapi'
 
 function Apiroot() {
 	const [usersData, setUsersData] = useState([])
@@ -45,7 +46,7 @@ function Apiroot() {
 		<div>
 			<h2>Part 28 : API Implementation in React</h2>
 
-			<h3>Fetching API</h3>
+			<h3>Fetching API : Get</h3>
 
 			{loading ? (
 				<p>Loading users...</p>
@@ -63,6 +64,9 @@ function Apiroot() {
 					</ul>
 				))
 			)}
+
+			{/* test code of post api implementation */}
+			<Postapi />
 		</div>
 	)
 }
