@@ -28,6 +28,7 @@ import Useactionstate from './23. useActionState hook/Useactionstate'
 import Useid from './24. useId hook/Useid'
 import Contextapi from './25. context api in react/Contextapi'
 import Customhooks from './26. custom hooks in react/Customhooks'
+import Reactrouter from './27. react router/Reactrouter'
 
 function App() {
 
@@ -71,6 +72,7 @@ function App() {
 			<Wrapper><Useid /></Wrapper>
 			<Wrapper><Contextapi /></Wrapper>
 			<Wrapper><Customhooks /></Wrapper>
+			<Wrapper><Reactrouter /></Wrapper>
 		</>
 	)
 }
