@@ -11,14 +11,14 @@ import Wrapper from './06. props in react/Wrapper'
 import Input from './07. get input value/Input'
 import InputControlled from './08. controlled component/InputControlled'
 import Checkbox from './09. handle checkbox/Checkbox'
-import Radio from './10. radio button & dropdown/radio'
+import Radio from './10. radio button & dropdown/Radio'
 import Loops from './11. looping & map func/Loops'
 import Useeffect from './12. useEffect hook/Useeffect'
 import Styling from './13. styling in react/Styling'
 import Useref from './14. useRef hook/Useref'
 import Passfunctionasprops from './15. pass function as props/Passfunctionasprops'
 import Forwardref from './16. forwardRef hook/Forwardref'
-import Useformstatus from './17. useFormStatus hook/useFormStatus'
+import Useformstatus from './17. useFormStatus hook/UseFormStatus'
 import Usetransition from './18. useTransition hook/Usetransition'
 import Drivedstate from './19. drived state/Drivedstate'
 import Liftingstateup from './20. lifting state up/Liftingstateup'
@@ -30,6 +30,7 @@ import Contextapi from './25. context api in react/Contextapi'
 import Customhooks from './26. custom hooks in react/Customhooks'
 import Reactrouter from './27. react router/Reactrouter'
 import Apiroot from './28. api implementation/Apiroot'
+import Validation from './29. validation/Validation'
 
 function App() {
 
@@ -75,6 +76,7 @@ function App() {
 			<Wrapper><Customhooks /></Wrapper>
 			<Wrapper><Reactrouter /></Wrapper>
 			<Wrapper><Apiroot /></Wrapper>
+			<Wrapper><Validation /></Wrapper>
 		</>
 	)
 }

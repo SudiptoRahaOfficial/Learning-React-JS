@@ -21,7 +21,7 @@ function Postapi() {
 
 	return (
 		<div>
-			<h3>Fetching API : Post</h3>
+			<h3>Implementing API : Post</h3>
 			<input
 				type='text'
 				onChange={(event) => setname(event.target.value)}

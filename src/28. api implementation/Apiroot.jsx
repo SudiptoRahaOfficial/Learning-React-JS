@@ -46,7 +46,7 @@ function Apiroot() {
 		<div>
 			<h2>Part 28 : API Implementation in React</h2>
 
-			<h3>Fetching API : Get</h3>
+			<h3>Implementing API : Get</h3>
 
 			{loading ? (
 				<p>Loading users...</p>
