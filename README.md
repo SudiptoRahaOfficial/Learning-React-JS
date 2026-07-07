@@ -56,6 +56,7 @@ This repository serves as my personal learning archive where I continuously impr
 * Part 31 : useReducer Hook in React
 * Part 32 : Lazy Loading in React
 * Part 33 : use API in React
+* Part 34 : useOptimistic Hook in React
 
 ---
 

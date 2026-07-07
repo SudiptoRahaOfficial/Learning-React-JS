@@ -35,6 +35,7 @@ import Validationwithuseactionstate from './30. validation with useActionState/V
 import Usereducer from './31. useReducer hook/Usereducer'
 import Lazyloading from './32. lazy loading in react/Lazyloading'
 import Useapi from './33. use api in react/Useapi'
+import UseOptimistic from './34. useOptimistic Hook/UseOptimistic'
 
 function App() {
 
@@ -85,6 +86,7 @@ function App() {
 			<Wrapper><Usereducer /></Wrapper>
 			<Wrapper><Lazyloading /></Wrapper>
 			<Wrapper><Useapi /></Wrapper>
+			<Wrapper><UseOptimistic /></Wrapper>
 		</>
 	)
 }
