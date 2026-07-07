@@ -53,6 +53,7 @@ This repository serves as my personal learning archive where I continuously impr
 * Part 28 : API Implementation in React
 * Part 29 : Validation In React
 * Part 30 : Validation with useActionState In React
+* Part 31 : useReducer Hook in React
 
 ---
 

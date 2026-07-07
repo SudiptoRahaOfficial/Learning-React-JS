@@ -32,6 +32,7 @@ import Reactrouter from './27. react router/Reactrouter'
 import Apiroot from './28. api implementation/Apiroot'
 import Validation from './29. validation/Validation'
 import Validationwithuseactionstate from './30. validation with useActionState/Validationwithuseactionstate'
+import Usereducer from './31. useReducer hook/Usereducer'
 
 function App() {
 
@@ -79,6 +80,7 @@ function App() {
 			<Wrapper><Apiroot /></Wrapper>
 			<Wrapper><Validation /></Wrapper>
 			<Wrapper><Validationwithuseactionstate /></Wrapper>
+			<Wrapper><Usereducer /></Wrapper>
 		</>
 	)
 }
