@@ -36,6 +36,7 @@ import Usereducer from './31. useReducer hook/Usereducer'
 import Lazyloading from './32. lazy loading in react/Lazyloading'
 import Useapi from './33. use api in react/Useapi'
 import UseOptimistic from './34. useOptimistic Hook/UseOptimistic'
+import Activityfeature from './35. Activity Feature in React/Activityfeature'
 
 function App() {
 
@@ -87,6 +88,7 @@ function App() {
 			<Wrapper><Lazyloading /></Wrapper>
 			<Wrapper><Useapi /></Wrapper>
 			<Wrapper><UseOptimistic /></Wrapper>
+			<Wrapper><Activityfeature /></Wrapper>
 		</>
 	)
 }
