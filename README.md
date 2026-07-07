@@ -58,6 +58,7 @@ This repository serves as my personal learning archive where I continuously impr
 * Part 33 : use API in React
 * Part 34 : useOptimistic Hook in React
 * Part 35 : Activity Feature in React
+* Part 36 : useEffectEvent in React
 
 ---
 

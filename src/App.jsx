@@ -37,6 +37,7 @@ import Lazyloading from './32. lazy loading in react/Lazyloading'
 import Useapi from './33. use api in react/Useapi'
 import UseOptimistic from './34. useOptimistic Hook/UseOptimistic'
 import Activityfeature from './35. Activity Feature in React/Activityfeature'
+import UseEffectevent from './36. useEffectEvent in React/UseEffectevent'
 
 function App() {
 
@@ -89,6 +90,7 @@ function App() {
 			<Wrapper><Useapi /></Wrapper>
 			<Wrapper><UseOptimistic /></Wrapper>
 			<Wrapper><Activityfeature /></Wrapper>
+			<Wrapper><UseEffectevent /></Wrapper>
 		</>
 	)
 }
