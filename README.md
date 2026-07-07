@@ -54,6 +54,7 @@ This repository serves as my personal learning archive where I continuously impr
 * Part 29 : Validation In React
 * Part 30 : Validation with useActionState In React
 * Part 31 : useReducer Hook in React
+* Part 32 : Lazy Loading in React
 
 ---
 

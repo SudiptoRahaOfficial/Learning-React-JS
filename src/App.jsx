@@ -33,6 +33,7 @@ import Apiroot from './28. api implementation/Apiroot'
 import Validation from './29. validation/Validation'
 import Validationwithuseactionstate from './30. validation with useActionState/Validationwithuseactionstate'
 import Usereducer from './31. useReducer hook/Usereducer'
+import Lazyloading from './32. lazy loading in react/Lazyloading'
 
 function App() {
 
@@ -81,6 +82,7 @@ function App() {
 			<Wrapper><Validation /></Wrapper>
 			<Wrapper><Validationwithuseactionstate /></Wrapper>
 			<Wrapper><Usereducer /></Wrapper>
+			<Wrapper><Lazyloading /></Wrapper>
 		</>
 	)
 }
