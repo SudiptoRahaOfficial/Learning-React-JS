@@ -2,10 +2,10 @@ import { useDispatch, useSelector } from 'react-redux'
 import cartCounterSlice, { clearCart } from '../redux/slice'
 
 function Header() {
-    const dispatch = useDispatch()
+	const dispatch = useDispatch()
 
-    const selector = useSelector((state) => state.cart.value)
-    
+	const selector = useSelector((state) => state.cart.value)
+
 	return (
 		<header className='header'>
 			<div className='logo'>
@@ -34,8 +34,8 @@ function Header() {
 				<button
 					style={{
 						width: '150px',
-                        backgroundColor: 'red',
-                        marginLeft: '20px'
+						backgroundColor: 'red',
+						marginLeft: '20px',
 					}}
 					className='add-cart-btn'
 					onClick={() => dispatch(clearCart())}

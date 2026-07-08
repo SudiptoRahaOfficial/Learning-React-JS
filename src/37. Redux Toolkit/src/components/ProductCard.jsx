@@ -3,7 +3,7 @@ import cartCounterSlice from '../redux/slice'
 import { addCartItem, removeCartItem } from '../redux/slice'
 
 function ProductCard() {
-    const dispatch = useDispatch()
+	const dispatch = useDispatch()
 
 	return (
 		<div className='product-card'>
@@ -23,8 +23,8 @@ function ProductCard() {
 			>
 				Add to Cart
 			</button>
-            <button
-                style={{backgroundColor: 'green', marginTop: '10px'}}
+			<button
+				style={{ backgroundColor: 'green', marginTop: '10px' }}
 				onClick={() => dispatch(removeCartItem())}
 				className='add-cart-btn'
 			>
