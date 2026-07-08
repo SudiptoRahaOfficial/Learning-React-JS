@@ -59,6 +59,7 @@ This repository serves as my personal learning archive where I continuously impr
 * Part 34 : useOptimistic Hook in React
 * Part 35 : Activity Feature in React
 * Part 36 : useEffectEvent in React
+* Part 37 : Redux Toolkit
 
 ---
 
