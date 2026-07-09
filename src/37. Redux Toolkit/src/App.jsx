@@ -1,9 +1,11 @@
 import React from 'react'
+import { Routes, Route } from 'react-router'
 
 import './App.css'
 
 import Header from './components/Header'
 import ProductCard from './components/ProductCard'
+import CartList from './components/CartList'
 
 function App() {
 	return (
@@ -25,9 +27,10 @@ function App() {
 			<Header />
 
 			<main>
-				<div className='products-container'>
-					<ProductCard />
-				</div>
+				<Routes>
+					<Route path='/' element={<ProductCard />} />
+					<Route path='/cart' element={<CartList />} />
+				</Routes>
 			</main>
 		</>
 	)

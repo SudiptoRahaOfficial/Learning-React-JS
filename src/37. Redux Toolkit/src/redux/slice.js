@@ -24,11 +24,15 @@ export const cartCounterSlice = createSlice({
 			state.items = cartData
 			localStorage.setItem('cart', JSON.stringify(cartData))
 		},
+		clearAllCartItem: (state) => {
+			state.items = []
+		},
 	},
 })
 
 // exporting functionalities
-export const { addCartItem, removeCartItem } = cartCounterSlice.actions
+export const { addCartItem, removeCartItem, clearAllCartItem } =
+	cartCounterSlice.actions
 
 // default exporting reducer from cartCounterSlice
 export default cartCounterSlice.reducer

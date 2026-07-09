@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux'
 import cartCounterSlice from '../redux/slice'
+import { Link } from 'react-router'
 
 function Header() {
 	const dispatch = useDispatch()
@@ -15,24 +16,17 @@ function Header() {
 			<nav className='nav'>
 				<ul>
 					<li>
-						<a href='#'>Home</a>
-					</li>
-					<li>
-						<a href='#'>Products</a>
-					</li>
-					<li>
-						<a href='#'>Categories</a>
-					</li>
-					<li>
-						<a href='#'>About</a>
+						<Link to='/'>Home</Link>
 					</li>
 				</ul>
 			</nav>
 
 			<div>
-				<button className='cart-btn'>
-					🛒 Cart ({cartSelector.length})
-				</button>
+				<Link to='/cart'>
+					<button className='cart-btn'>
+						🛒 Cart ({cartSelector.length})
+					</button>
+				</Link>
 			</div>
 		</header>
 	)

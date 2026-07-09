@@ -47,7 +47,8 @@ ul {
 }
 
 .nav a {
-	font-size: 17px;
+	font-size: 18px;
+	font-weight: 600;
 	transition: 0.3s;
 }
 
@@ -89,7 +90,7 @@ ul {
 
 .product-card {
 	width: 300px;
-	background: #ffffff;
+	background: #f6ebff;
 	border-radius: 10px;
 	padding: 20px;
 	text-align: center;
@@ -137,4 +138,91 @@ ul {
 .btn-disabled:hover {
 	background: #df0000;
 	color: #000;
+}
+
+/* ===========================
+   Cart List Page
+=========================== */
+.cart-item-container {
+	width: 60%;
+	margin: 50px auto;
+}
+.cart-header {
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+	margin: 30px 0 40px 15px;
+}
+
+.cart-item {
+	width: 900px;
+	background: #f6ebff;
+	color: #000;
+	padding: 20px 60px;
+	margin: 30px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+.cart-item-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+.cart-item-info > h4 {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.cart-item-info > img {
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px #999999;
+	background-color: aliceblue;
+}
+
+.cart-item-actions {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.cart-item-actions > span {
+	color: #005d5d;
+	font-weight: 800;
+}
+
+.cart-item-actions > input {
+	width: 80px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #ababab;
+	padding: 4px 0;
+}
+
+.cart-item-actions > button {
+	font-size: 12px;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.cart-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 30px;
+	margin-left: 20px;
+}
+
+.cart-footer > .totalPrice {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 30px 25px 40px 0;
+	text-align: right;
 }
